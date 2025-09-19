@@ -1,8 +1,7 @@
 {
   "scripts": {
     "start": "eleventy --serve",
-    "build:css": "tailwindcss -i styles/tailwind.css -o _site/style.css",
-    "build": "npm run build:css && eleventy"
+    "build": "eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
